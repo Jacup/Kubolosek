@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" href="css/searchbar.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.4.2/Sortable.min.js">
+    </script>
+    <title>KUBOLOSEK HOMEPAGE</title>
+</head>
+
+<body>
+    <header>
+        <div class="box"><div class="container-1">
+            <form onsubmit="return redirect();">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input placeholder="Search the web..." class="searchbar" id="search" type="text" />
+            </form>
+        </div></div>
+    </header>
+    <main>
+        <article>
+            <div class="row-1">
+                <div id="tekst"></div>
+            </div>
+
+            <div class="row-2" id="my-ui-list">
+
+                  <div class="card card-1" data-id="1" onclick="location.href='https://facebook.com'"></div>
+                  <div class="card card-2" data-id="2" onclick="location.href='https://allegro.pl'"></div>
+                  <div class="card card-3" data-id="3" onclick="location.href='https://mail.google.com'"></div>
+                  <div class="card card-4" data-id="4" onclick="location.href='https://youtube.com'"></div>
+
+            </div>
+        </article>
+
+
+        <nav>
+        <div class='face'>
+            <div class='hour-hand'></div>
+            <div class='minute-hand'></div>
+            <div class='seconds-hand'></div>
+            <div class='center'></div>
+        </div>
+        </nav>
+
+        <aside>
+
+        </aside>
+    </main>
+
+
+
+    <footer>
+        <button onclick="openNav()" class="navbutton">&#x2699;</button>
+    </footer>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn"   onclick="closeNav()">&times;</a>
+        <span class="navheader">Wallpaper</span>
+        <div class="myButton bg-1"><input type="submit" id='img1' name="xxx" value=''></div>
+        <div class="myButton bg-2"><input type="submit" id='img2' name="xxx" value=""></div>
+        <div class="myButton bg-3"><input type="submit" id='img3' name="xxx" value=""></div>
+        <div class="myButton bg-4"><input type="submit" id='img4' name="xxx" value=""></div>
+    </div>
+    <script src="js/sidenav.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/searchbar.js"></script>
+    <script src="js/clock.js"></script>
+        <script src="js/drag.js"></script>
+        <script src="js/tekst.js"></script>
+        <script src="js/moveclock.js"></script>
+</body>
+</html>

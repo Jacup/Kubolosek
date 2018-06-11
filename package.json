@@ -1,0 +1,24 @@
+{
+  "name": "foe-kubolosek",
+  "version": "1.0.0",
+  "description": "TI2018 JS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ti18/foe-kubolosek.git"
+  },
+  "author": "Jakub Gramburg, Mikolaj Kossowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ti18/foe-kubolosek/issues"
+  },
+  "homepage": "https://github.com/ti18/foe-kubolosek#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
